@@ -1,0 +1,77 @@
+/* src/components/SideNav.module.css */
+.sideNav {
+  position: fixed;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  z-index: 1001; /* Must be highest */
+  font-family: var(--font-inter);
+  
+  /* This component must NOT blend */
+  mix-blend-mode: normal;
+  filter: none;
+  color: var(--text-primary); /* From body theme */
+  background: transparent;
+}
+
+/* Fix body background when in dark mode */
+[data-theme='earthy'] .sideNav {
+  color: var(--text-primary);
+}
+
+.sideNav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.navLink {
+  color: inherit; /* Inherits from .sideNav */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.navLink span {
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.navLink:hover {
+  color: var(--text-primary);
+  /* Background must be black/white to invert properly */
+  background: var(--card-background); 
+  box-shadow: 0 0 15px var(--card-glow);
+}
+
+.navLink:hover span {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.navLink.active {
+  color: var(--primary-accent);
+  background: var(--card-background);
+}
+
+.navLink.active span {
+  opacity: 1;
+  transform: translateX(0);
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .sideNav {
+    display: none;
+  }
+}

@@ -1,0 +1,177 @@
+/* src/app/tasks/todo-list/TodoList.module.css */
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 4rem 2rem;
+  background: var(--background-dark);
+}
+
+.todoContainer {
+  width: 100%;
+  max-width: 600px;
+  background: var(--card-background);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  color: var(--text-primary);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  background: -webkit-linear-gradient(45deg, #37a2d6, #d6b837, #d63737);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.inputForm {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.taskInput {
+  flex-grow: 1;
+  background: var(--background-dark-solid);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  color: var(--text-primary);
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.taskInput:focus {
+  outline: none;
+  border-color: #5372f0;
+  box-shadow: 0 0 10px rgba(83, 114, 240, 0.5);
+}
+
+.priorityButton {
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, filter 0.3s;
+}
+
+.priorityButton:hover {
+  filter: brightness(1.2);
+}
+
+
+.addButton {
+  background: #5372f0;
+  border: none;
+  border-radius: 10px;
+  padding: 0 1.2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addButton:hover {
+  background-color: #405ac8;
+  transform: scale(1.05);
+}
+
+.taskListWrapper {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.taskList {
+  list-style: none;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background-dark-solid);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border-left: 5px solid transparent;
+  transition: background-color 0.2s;
+}
+
+.taskContent {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.taskNumber {
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.completed p {
+  text-decoration: line-through;
+  color: var(--text-secondary);
+}
+
+.taskActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.priorityIndicator {
+  background: none;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lowPriority { border-color: #37a2d6; color: #37a2d6; background-color: rgba(55, 162, 214, 0.1); }
+.mediumPriority { border-color: #d6b837; color: #d6b837; background-color: rgba(214, 184, 55, 0.1); }
+.highPriority { border-color: #d63737; color: #d63737; background-color: rgba(214, 55, 55, 0.1); }
+
+.editInput {
+  background: var(--background-dark-solid);
+  border: 1px solid var(--primary-accent);
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: var(--text-primary);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.actionButton {
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.actionButton:hover {
+    color: var(--primary-accent);
+}
+
+.deleteButton:hover {
+  color: #e53e3e !important;
+}

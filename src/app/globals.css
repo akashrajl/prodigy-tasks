@@ -1,0 +1,75 @@
+/* src/app/globals.css */
+
+/* --- THEME 1: Retro Dark (Default) --- */
+:root {
+  /* Black & White Palette */
+  --background-dark: #000000;
+  --primary-accent: #FFFFFF;
+  --secondary-accent: #BBBBBB;
+  --text-primary: #FFFFFF;
+  --text-secondary: #AAAAAA;
+  --card-background: #121212;
+  --card-border: rgba(255, 255, 255, 0.2);
+  --card-glow: rgba(255, 255, 255, 0.1);
+  --background-dark-solid: #0d0d0d;
+
+  /* Vibrant color for key elements */
+  --key-color-vibrant: #ff00c8; /* Retro Magenta */
+
+  --font-inter: 'Inter', sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+}
+
+/* --- THEME 2: Retro Light --- */
+[data-theme='light'] {
+  --background-dark: #FFFFFF;
+  --primary-accent: #000000;
+  --secondary-accent: #444444;
+  --text-primary: #000000;
+  --text-secondary: #555555;
+  --card-background: #f5f5f5;
+  --card-border: rgba(0, 0, 0, 0.2);
+  --card-glow: rgba(0, 0, 0, 0.1);
+  --background-dark-solid: #f1f1f1;
+}
+
+
+/* --- GLOBAL STYLES --- */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background-dark);
+  color: var(--text-primary);
+  font-family: var(--font-inter);
+  width: 100%;
+  position: relative;
+}
+
+/* --- MAIN CONTENT WRAPPER --- */
+main {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  padding-left: 120px;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-left: 0;
+  }
+}
+

@@ -1,0 +1,89 @@
+/* src/components/Header.module.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  z-index: 1000; /* Must be higher than main content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-inter);
+
+  /* This component must NOT blend, so it stays visible */
+  mix-blend-mode: normal; 
+  filter: none;
+  color: var(--text-primary); /* This now comes from the *body's* theme */
+}
+
+/* Fix body background when in dark mode */
+[data-theme='earthy'] .header {
+  color: var(--text-primary);
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.themeToggle {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 0.5rem;
+  will-change: transform, font-weight;
+}
+
+/* Apply blink animation */
+.themeToggle svg {
+  --blink-opacity: 1;
+  animation: blink-animation 2s ease-in-out infinite running;
+  display: block; /* Fixes layout shift */
+}
+
+.themeToggle:hover {
+  color: var(--primary-accent);
+  transform: scale(1.2);
+}
+
+.loginButton {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  padding: 0.5rem 1.5rem;
+  border: 2px solid var(--primary-accent);
+  border-radius: 20px;
+  color: var(--primary-accent);
+  background: transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px var(--card-glow);
+}
+
+.loginButton:hover {
+  background-color: var(--primary-accent);
+  /* Text color must invert the button color */
+  color: var(--bg); 
+  box-shadow: 0 0 20px var(--primary-accent);
+}
+/* Add to end of src/components/Header.module.css */
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.userInfo span {
+  font-weight: 600;
+}

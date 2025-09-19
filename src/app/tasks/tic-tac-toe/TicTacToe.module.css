@@ -1,0 +1,124 @@
+/* src/app/tasks/tic-tac-toe/TicTacToe.module.css */
+.gameContainer {
+  width: 100%;
+  max-width: 380px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-primary);
+  background: var(--card-background);
+  border-radius: 20px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.status {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #f9b234;
+}
+
+.scoreboard {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: var(--background-dark-solid);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.boardRow {
+  display: flex;
+  gap: 10px;
+}
+
+.resetButton {
+  margin-top: 2rem;
+  background: #f9b234;
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem 2rem;
+  color: #1a1a2e;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resetButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #f9b234;
+}
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modalContent {
+  background: var(--card-background);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #f9b234;
+  color: var(--text-primary);
+}
+
+.modalContent h2 {
+  margin-bottom: 2rem;
+}
+
+.winnerText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f9b234;
+  margin-bottom: 2rem;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.modalButtons button {
+  background: #f9b234;
+  border: none;
+  color: #1a1a2e;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.modalButtons button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #f9b234;
+}

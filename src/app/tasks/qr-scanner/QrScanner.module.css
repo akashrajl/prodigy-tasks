@@ -1,0 +1,163 @@
+/* src/app/tasks/qr-scanner/QrScanner.module.css */
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--background-dark);
+}
+
+.scannerContainer {
+  width: 100%;
+  max-width: 500px;
+  background: var(--card-background);
+  border-radius: 20px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  text-align: center;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* --- Initial View Styles --- */
+.initialView h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-accent);
+}
+
+.initialView p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.methodButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.methodButton {
+  background-color: var(--background-dark-solid);
+  border: 1px solid var(--card-border);
+  color: var(--text-primary);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.methodButton:hover {
+  background-color: var(--primary-accent);
+  color: var(--background-dark);
+  transform: translateY(-3px);
+}
+
+/* --- Active Scanner Styles --- */
+.activeScanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.scannerViewport {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 5px solid var(--primary-accent);
+}
+
+.scannerViewport video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.captureButton {
+  background-color: #3ecd5e;
+  border: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.cancelButton {
+  background-color: #e44002;
+  border: none;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+/* --- Result View Styles --- */
+.resultContainer h4 {
+  font-size: 1.8rem;
+  color: #3ecd5e;
+  margin-bottom: 1rem;
+}
+
+.resultData {
+  background: var(--background-dark-solid);
+  padding: 1rem;
+  border-radius: 5px;
+  word-break: break-all;
+  margin-bottom: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+  border: 1px dashed var(--card-border);
+}
+
+.actionButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.actionButton {
+  background: var(--primary-accent);
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  color: var(--background-dark);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.resetButton {
+  background-color: var(--background-dark-solid);
+  border: 1px solid var(--card-border);
+  color: var(--text-primary);
+}
