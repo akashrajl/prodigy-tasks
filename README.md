@@ -1,187 +1,203 @@
-# 🌟 Prodigy Internship Tasks Showcase  
+<!-- Improved compatibility of back to top link -->
+<a id="readme-top"></a>
 
-[![Stars](https://img.shields.io/github/stars/akashrajl/prodigy-tasks?style=social)](https://github.com/akashrajl/prodigy-tasks/stargazers)  
-[![Forks](https://img.shields.io/github/forks/akashrajl/prodigy-tasks?style=social)](https://github.com/akashrajl/prodigy-tasks/network/members)  
-![License](https://img.shields.io/badge/License-MIT-green.svg)  
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
----
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/akashrajl/prodigy-tasks">
+    <img src="https://github.com/user-attachments/assets/17f6c0a9-2d1d-46b3-b30c-53a6762de2db" alt="Logo" width="80" height="80">
+  </a>
 
-## 📖 About This Project  
+  <h3 align="center">Prodigy InfoTech Internship Projects</h3>
 
-This website is the **culmination of my exciting journey** as an **Android Development Intern** at **Prodigy InfoTech**.  
-
-Here, you'll find a **suite of five essential Android apps** I had the privilege to build.  
-From a sleek calculator 🧮 to an intelligent QR code scanner 📷, each project was an **adventure in coding and creativity**.  
-
-✨ I invite you to explore these applications and see the **skills and passion** I brought to my internship.  
-
----
-
-## 🚀 Live Demo  
-
-👉 [Click here to view the live project](https://akashrajl-prodigy-tasks.vercel.app)  
-
----
-
-## 📝 Table of Contents  
-- [Features](#-features)  
-- [Apps Included](#-apps-included)  
-- [Tech Stack](#-tech-stack)  
-- [Installation](#-installation)  
-- [Usage](#-usage)  
-- [Screenshots](#-screenshots)  
-- [Contributing](#-contributing)  
-- [License](#-license)  
-- [Contact](#-contact)  
+  <p align="center">
+    🚀 A collection of Android apps I built during my internship at Prodigy InfoTech.
+    <br />
+    <a href="https://github.com/akashrajl/prodigy-tasks"><strong>Explore the repo »</strong></a>
+    <br />
+    <br />
+    <a href="#usage">View Demo</a>
+    ·
+    <a href="https://github.com/akashrajl/prodigy-tasks/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/akashrajl/prodigy-tasks/issues">Request Feature</a>
+  </p>
+</div>
 
 ---
 
-## ✨ Features  
-
-- 🖥️ Clean and responsive UI (mobile-first design)  
-- ⚡ Smooth animations with **Framer Motion**  
-- 🌙 Dark / Light mode toggle  
-- 📱 A portfolio-style single-page website with 5 apps integrated  
-- 🚀 Deployed seamlessly on **Vercel**  
-
----
-
-## 📱 Apps Included  
-
-Here are the **five apps** showcased:  
-
-1. **🧮 Calculator App**  
-   - Performs basic arithmetic (+ − × ÷ %)  
-   - Keeps calculation history  
-   - Responsive tactile buttons  
-
-2. **📝 To-Do List App**  
-   - Add, edit, and delete tasks  
-   - Mark tasks as completed ✅  
-   - LocalStorage support for persistence  
-
-3. **⏱️ Stopwatch App**  
-   - Start, stop, and reset functionality  
-   - Lap timer support  
-   - Digital + analog style display  
-
-4. **❌⭕ Tic-Tac-Toe Game**  
-   - Play PvP or vs AI (Minimax algorithm 🤖)  
-   - Win detection with highlighted lines  
-   - Scoreboard tracking  
-
-5. **📷 QR Code Scanner App**  
-   - Scan using device camera  
-   - Detect links, emails, or text automatically  
-   - Copy content or directly act on results  
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#apps-showcase">Apps Showcase</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
 ---
 
-## 🛠 Tech Stack  
+<!-- ABOUT THE PROJECT -->
+## 📖 About The Project
 
-- **Frontend:** Next.js ⚛️, React, TypeScript  
-- **Styling:** CSS Modules, Sass  
-- **Animation:** Framer Motion 🎞️  
-- **Deployment:** Vercel 🌍  
-- **Android Development Internship Theme** (all apps originally designed in Android, recreated for the web showcase 🌐)  
+This repository is the culmination of my exciting journey as an **Android Development Intern** at **Prodigy InfoTech** 🎯.  
+Here, you'll find a suite of **five essential Android apps** I had the privilege to build. From a sleek calculator to an intelligent QR code scanner, each project was an adventure in coding and creativity.
 
----
+✨ **Apps included:**
+- Calculator ➗
+- To-Do List ✅
+- Stopwatch ⏱️
+- Tic Tac Toe 🎮
+- QR Code Scanner 📷
 
-## ⚙ Installation  
-
-Clone this repository and run it locally:  
-
-```bash
-# Clone the repo
-git clone https://github.com/akashrajl/prodigy-tasks.git  
-
-# Move into folder
-cd prodigy-tasks  
-
-# Install dependencies
-npm install  
-
-# Run the development server
-npm run dev  
-
-# Open in your browser
-http://localhost:3000
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 🚦 Usage  
+## 📱 Apps Showcase
 
-```bash
-# Run locally
-npm run dev  
+### CALCULATOR
+<img width="773" height="584" alt="Calculator" src="https://github.com/user-attachments/assets/17f6c0a9-2d1d-46b3-b30c-53a6762de2db" />
 
-# Build for production
-npm run build  
+### TO-DO LIST
+<img width="780" height="482" alt="To-Do List" src="https://github.com/user-attachments/assets/920e1691-491b-44ab-9cd8-52a6db4c3b99" />
 
-# Start the production server
-npm start  
-```
+### STOPWATCH
+<img width="1151" height="692" alt="Stopwatch" src="https://github.com/user-attachments/assets/a59e9a81-c8c1-4acb-b6bd-d726eeadd867" />
 
----
+### TIC TAC TOE
+<img width="431" height="685" alt="Tic Tac Toe" src="https://github.com/user-attachments/assets/badb97ac-4374-469e-8344-238142a0f263" />
 
-## 🖼️ Screenshots  
+### QR-CODE SCANNER
+<img width="594" height="327" alt="QR Code Scanner" src="https://github.com/user-attachments/assets/e357c96b-3982-4a59-8260-16d52eb4fd6e" />
 
-👉 Insert screenshots / GIFs here to make the README pop!  
-I suggest:  
-- A **dashboard screenshot** showing all apps in one view  
-- Individual **screenshots or short GIFs** for each app  
-
-Example (replace with your images):  
-
-CALCULATOR
-<img width="773" height="584" alt="image" src="https://github.com/user-attachments/assets/17f6c0a9-2d1d-46b3-b30c-53a6762de2db" />
-TO-DO LIST
-<img width="780" height="482" alt="image" src="https://github.com/user-attachments/assets/920e1691-491b-44ab-9cd8-52a6db4c3b99" />
-STOPWATCH
-<img width="1151" height="692" alt="image" src="https://github.com/user-attachments/assets/a59e9a81-c8c1-4acb-b6bd-d726eeadd867" />
-TIC TAC TOE
-<img width="431" height="685" alt="image" src="https://github.com/user-attachments/assets/badb97ac-4374-469e-8344-238142a0f263" />
-QR-CODE SCANNER
-<img width="594" height="327" alt="image" src="https://github.com/user-attachments/assets/e357c96b-3982-4a59-8260-16d52eb4fd6e" />
-
-
-
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 🤝 Contributing  
+## 🛠 Built With
 
-Contributions are welcome!  
+* [Android Studio](https://developer.android.com/studio)
+* [Java](https://www.java.com/)
+* [XML](https://developer.android.com/guide/topics/ui)
 
-1. Fork the project 🍴  
-2. Create your feature branch (`git checkout -b feature/YourFeature`)  
-3. Commit your changes (`git commit -m 'Add some feature'`)  
-4. Push to the branch (`git push origin feature/YourFeature`)  
-5. Open a Pull Request 🎉  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 📜 License  
+## 🚀 Getting Started
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.  
+### Prerequisites
+Make sure you have Android Studio installed on your system.
+
+### Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/akashrajl/prodigy-tasks.git
+   ```
+2. Open in Android Studio
+3. Build & Run on Emulator/Device
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 📬 Contact  
+## 🎮 Usage
 
-- 👨‍💻 **Name:** Akash Raj L  
-- 🔗 **LinkedIn:** [linkedin.com/in/akashrajl](https://linkedin.com/in/akashrajl)  
-- 📧 **Email:** laakashraj2004@gmail.com  
-- 🌟 **GitHub:** [@akashrajl](https://github.com/akashrajl)  
+- Use the **Calculator** for quick calculations
+- Organize tasks with **To-Do List**
+- Track time with **Stopwatch**
+- Play **Tic Tac Toe** with friends
+- Scan QR codes instantly with **QR Code Scanner**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 🌟 Final Words  
+## 🗺 Roadmap
 
-If you enjoyed this repo or found it useful, **don’t forget to star ⭐ it**.  
-Your support motivates me to keep building and sharing more awesome projects! 🚀
+- [x] Add screenshots for all apps
+- [x] Add installation steps
+- [ ] Add APK release downloads
+- [ ] Add video walkthroughs
 
+See the [open issues](https://github.com/akashrajl/prodigy-tasks/issues) for a full list.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🤝 Contributing
+
+Contributions make the open source community thrive! 🌱  
+If you have suggestions, feel free to fork the repo and submit a PR.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See `LICENSE` for details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 📬 Contact
+
+**Akash Raj**  
+[GitHub](https://github.com/akashrajl) · [LinkedIn](https://linkedin.com/in/akashrajl)
+
+Project Link: [https://github.com/akashrajl/prodigy-tasks](https://github.com/akashrajl/prodigy-tasks)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🙏 Acknowledgments
+
+* [Prodigy InfoTech](https://prodigyinfotech.dev/)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Android Developers Documentation](https://developer.android.com/docs)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/akashrajl/prodigy-tasks.svg?style=for-the-badge
+[contributors-url]: https://github.com/akashrajl/prodigy-tasks/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/akashrajl/prodigy-tasks.svg?style=for-the-badge
+[forks-url]: https://github.com/akashrajl/prodigy-tasks/network/members
+[stars-shield]: https://img.shields.io/github/stars/akashrajl/prodigy-tasks.svg?style=for-the-badge
+[stars-url]: https://github.com/akashrajl/prodigy-tasks/stargazers
+[issues-shield]: https://img.shields.io/github/issues/akashrajl/prodigy-tasks.svg?style=for-the-badge
+[issues-url]: https://github.com/akashrajl/prodigy-tasks/issues
+[license-shield]: https://img.shields.io/github/license/akashrajl/prodigy-tasks.svg?style=for-the-badge
+[license-url]: https://github.com/akashrajl/prodigy-tasks/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/akashrajl
