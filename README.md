@@ -134,25 +134,21 @@ I suggest:
 
 Example (replace with your images):  
 
-```markdown
-### Dashboard  
-![Dashboard Screenshot](assets/dashboard.png)  
+CALCULATOR
+<img width="773" height="584" alt="image" src="https://github.com/user-attachments/assets/17f6c0a9-2d1d-46b3-b30c-53a6762de2db" />
+TO-DO LIST
+<img width="780" height="482" alt="image" src="https://github.com/user-attachments/assets/920e1691-491b-44ab-9cd8-52a6db4c3b99" />
+STOPWATCH
+<img width="1151" height="692" alt="image" src="https://github.com/user-attachments/assets/a59e9a81-c8c1-4acb-b6bd-d726eeadd867" />
+TIC TAC TOE
+<img width="431" height="685" alt="image" src="https://github.com/user-attachments/assets/badb97ac-4374-469e-8344-238142a0f263" />
+QR-CODE SCANNER
+<img width="594" height="327" alt="image" src="https://github.com/user-attachments/assets/e357c96b-3982-4a59-8260-16d52eb4fd6e" />
 
-### Calculator  
-![Calculator Screenshot](assets/calculator.png)  
 
-### To-Do List  
-![To-Do Screenshot](assets/todo.png)  
 
-### Stopwatch  
-![Stopwatch Screenshot](assets/stopwatch.png)  
 
-### Tic Tac Toe  
-![Tic Tac Toe Screenshot](assets/tictactoe.png)  
 
-### QR Code Scanner  
-![QR Scanner Screenshot](assets/qrscanner.png)  
-```
 
 ---
 
