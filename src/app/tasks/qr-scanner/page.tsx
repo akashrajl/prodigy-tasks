@@ -64,6 +64,7 @@ const QrScannerPage = () => {
         () => {}, // onSuccess is handled by the capture button now
         () => {}  // onFailure is ignored
       ).catch((err) => {
+        console.error("Camera start error:", err); // Log the error instead of ignoring
         alert("Could not start camera. Please grant permissions.");
         setIsScannerActive(false);
       });
@@ -99,6 +100,7 @@ const QrScannerPage = () => {
             handleScanSuccess(result);
             setIsScannerActive(false);
         } catch (err) {
+            console.error("Capture scan error:", err); // Log the error
             alert("No QR code found in the captured image. Please try again.");
         }
     }
@@ -106,8 +108,10 @@ const QrScannerPage = () => {
   
   // Helper to convert data URL to File object
   function dataURLtoFile(dataurl: string, filename: string) {
-    let arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)?.[1],
-        bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+    const arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)?.[1];
+    const bstr = atob(arr[1]);
+    let n = bstr.length;
+    const u8arr = new Uint8Array(n);
     while(n--){
         u8arr[n] = bstr.charCodeAt(n);
     }
@@ -124,6 +128,7 @@ const QrScannerPage = () => {
       const decodedText = await fileScanner.scanFile(file, false);
       handleScanSuccess(decodedText);
     } catch (err) {
+      console.error("File upload scan error:", err); // Log the error
       alert('Error scanning file. Please ensure it is a valid QR code image.');
     }
   };
