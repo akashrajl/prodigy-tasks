@@ -7,33 +7,35 @@
   <a href="https://github.com/akashrajl/prodigy-tasks/network/members">
     <img src="https://img.shields.io/github/forks/akashrajl/prodigy-tasks?style=for-the-badge&logo=github&color=blue" alt="GitHub forks">
   </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT">
-  </a>
   <a href="https://github.com/akashrajl/prodigy-tasks">
     <img src="https://komarev.com/ghpvc/?username=akashrajl&style=for-the-badge&color=blueviolet" alt="Total Views">
   </a>
 </p>
 
-<p align="center">
-  Welcome to a showcase of my journey through the Prodigy InfoTech internship! This repository is a vibrant collection of web-based applications, mirroring the simplicity and utility often found in basic Android apps. Each project is crafted with care, demonstrating a strong grasp of modern web technologies. Dive in and explore!
-</p>
+## 📜 Table of Contents
+* [About The Project Suite](#-about-the-project-suite-)
+* [Interactive Demos & Applications](#-interactive-demos--applications-)
+* [The Core Tech Stack](#️-the-core-tech-stack-)
+* [Project Goals & Lessons Learned](#-project-goals--lessons-learned-)
+* [Getting Started Locally](#-getting-started-locally-)
+* [How to Contribute](#-how-to-contribute-)
+* [About Me](#-about-me-)
 
 ---
 
-## 📜 Table of Contents
+## 💻 About The Project Suite 
 
-* [Interactive Demos & Applications](#-interactive-demos--applications-)
-* [The Core Tech Stack](#️-the-core-tech-stack-)
-* [Getting Started Locally](#-getting-started-locally-)
-* [About Me](#-about-me-)
-* [Contributing & Support](#-contributing--support-)
+This repository hosts a suite of web applications developed as part of my internship at Prodigy InfoTech. It's designed as a unified platform where you can access and interact with all the individual tasks I've completed. Each application, from a simple calculator to a real-time QR scanner, is a self-contained project demonstrating key web development skills.
+
+<p align="center">
+  <strong><a href="https://akashrajl-prodigy-ad-tasks.vercel.app/">➡️ Visit the Live Application Suite</a></strong>
+</p>
 
 ---
 
 ## ✨ Interactive Demos & Applications ✨
 
-Below are the live versions of the applications. Click on any animated icon, screenshot, or the "Live Demo" button to launch and interact with them directly!
+Below are the individual applications within the suite. Click on any screenshot or the "Live Demo" button to launch and interact with them directly!
 
 ### <img src="https://user-images.githubusercontent.com/74038190/212259196-52f1c75b-3023-4152-a968-a4358509a0a0.gif" width="30"> **_Task 1: The Smart Calculator_** 🧮
 
@@ -41,7 +43,7 @@ Below are the live versions of the applications. Click on any animated icon, scr
 
 <p align="center">
   <a href="https://akashrajl-prodigy-ad-tasks.vercel.app/tasks/calculator">
-    <img src="https://github.com/user-attachments/assets/80595f8f-a9e1-47a7-81a7-b68b2885c03d" alt="Calculator Web App" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img src="https://github.com/user-attachments/assets/80595f8f-a9e1-47a7-81a7-b68b2885c03d" alt="Calculator Web App" width="550px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </a>
 </p>
 <p align="center">
@@ -56,7 +58,7 @@ Below are the live versions of the applications. Click on any animated icon, scr
 
 <p align="center">
   <a href="https://akashrajl-prodigy-ad-tasks.vercel.app/tasks/todo-list">
-    <img src="https://github.com/user-attachments/assets/d855fc0f-c94a-4dd7-b98d-5f277d697452" alt="To-Do List Web App" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img src="https://github.com/user-attachments/assets/d855fc0f-c94a-4dd7-b98d-5f277d697452" alt="To-Do List Web App" width="550px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </a>
 </p>
 <p align="center">
@@ -71,7 +73,7 @@ Below are the live versions of the applications. Click on any animated icon, scr
 
 <p align="center">
   <a href="https://akashrajl-prodigy-ad-tasks.vercel.app/tasks/stopwatch">
-    <img src="https://github.com/user-attachments/assets/1d3c59cd-2c30-4cb7-b5d6-47370d8eec93" alt="Stopwatch Web App" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img src="https://github.com/user-attachments/assets/1d3c59cd-2c30-4cb7-b5d6-47370d8eec93" alt="Stopwatch Web App" width="550px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </a>
 </p>
 <p align="center">
@@ -86,7 +88,7 @@ Below are the live versions of the applications. Click on any animated icon, scr
 
 <p align="center">
   <a href="https://akashrajl-prodigy-ad-tasks.vercel.app/tasks/tic-tac-toe">
-    <img src="https://github.com/user-attachments/assets/8d442958-7de1-4a49-8b45-d7d3cb9f9c2d" alt="Tic-Tac-Toe Web Game" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img src="https://github.com/user-attachments/assets/8d442958-7de1-4a49-8b45-d7d3cb9f9c2d" alt="Tic-Tac-Toe Web Game" width="550px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </a>
 </p>
 <p align="center">
@@ -101,7 +103,7 @@ Below are the live versions of the applications. Click on any animated icon, scr
 
 <p align="center">
   <a href="https://akashrajl-prodigy-ad-tasks.vercel.app/tasks/qr-scanner">
-    <img src="https://github.com/user-attachments/assets/9f9645f8-002b-479f-8e67-37afe086b7f9" alt="QR Code Scanner Web App" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img src="https://github.com/user-attachments/assets/9f9645f8-002b-479f-8e67-37afe086b7f9" alt="QR Code Scanner Web App" width="550px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </a>
 </p>
 <p align="center">
@@ -137,6 +139,16 @@ These applications were built using a modern and powerful stack to ensure perfor
 
 ---
 
+## 🎯 Project Goals & Lessons Learned 
+
+* **Goal:** The primary objective was to successfully complete all tasks assigned during the Prodigy InfoTech internship, focusing on building functional, user-friendly web applications.
+* **Dynamic UI:** Gained hands-on experience in manipulating the DOM and managing application state with JavaScript.
+* **Modern Frameworks:** Deepened my understanding of Next.js for building scalable and performant React applications.
+* **Styling & Animation:** Enhanced my skills in responsive design using modern CSS and creating fluid user experiences with Framer Motion.
+* **Problem-Solving:** Sharpened my ability to break down complex problems into manageable tasks and implement effective solutions from scratch.
+
+---
+
 ## 🚀 Getting Started Locally 🧑‍💻
 
 Want to run these projects on your own machine? It's super easy!
@@ -151,6 +163,45 @@ Want to run these projects on your own machine? It's super easy!
     ```
 3.  **Explore and Open:**
     Each task resides in its own folder. Simply open the `index.html` file within any of these folders in your web browser to launch the application.
+
+---
+
+## 🤝 How to Contribute 
+
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1.  **Fork the Project**
+    * Click the 'Fork' button at the top right of this page to create your own copy of this repository.
+
+2.  **Clone Your Fork**
+    * On your GitHub account, navigate to your forked repository, click the 'Code' button and copy the URL.
+    ```bash
+    git clone [https://github.com/Your-Username/prodigy-tasks.git](https://github.com/Your-Username/prodigy-tasks.git)
+    ```
+
+3.  **Create a New Branch**
+    * Create a new branch to work on your feature or bug fix.
+    ```bash
+    git checkout -b feature/AmazingFeature
+    ```
+
+4.  **Make Your Changes**
+    * Implement your new feature or fix the bug.
+
+5.  **Commit Your Changes**
+    * Commit your changes with a descriptive message.
+    ```bash
+    git commit -m 'Add some AmazingFeature'
+    ```
+
+6.  **Push to Your Branch**
+    * Push your changes up to your forked repository.
+    ```bash
+    git push origin feature/AmazingFeature
+    ```
+
+7.  **Open a Pull Request**
+    * Go to the original repository and you will see a prompt to create a pull request from your new branch. Fill out the template and submit it!
 
 ---
 
@@ -176,18 +227,6 @@ Hey there! I'm **Akash Raj**, an enthusiastic and dedicated web developer. This 
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
-
----
-
-## 🤝 Contributing & Support 🙏
-
-I welcome any contributions, suggestions, or bug reports! If you have ideas for improvements or find an issue, please feel free to fork the repo and create a pull request.
-
----
-
-## 📜 License
-
-This project is open-source and distributed under the **MIT License**.
 
 ---
 
