@@ -20,7 +20,7 @@ Below are the live versions of the applications. Click on any animated icon or t
 **Description:** A sleek, responsive, and fully functional calculator designed for intuitive arithmetic operations. Experience precision and ease with every tap.
 
 <a href="[YOUR-LIVE-LINK-FOR-CALCULATOR]">
-  <img src="https://github.com/user-attachments/assets/80595f8f-a9e1-47a7-81a7-b68b2885c03d" alt="Calculator Web App" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <img src="https://github.com/user-attachments/assets/80595f8f-a9e1-47a7-81a7-b68b2885c03d" alt="Calculator Web App" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </a>
 
 > **[🚀 Launch Calculator]([YOUR-LIVE-LINK-FOR-CALCULATOR])**
@@ -32,7 +32,7 @@ Below are the live versions of the applications. Click on any animated icon or t
 **Description:** Organize your day effortlessly with this interactive to-do list. Add, mark as complete, or delete tasks to keep your productivity soaring.
 
 <a href="[YOUR-LIVE-LINK-FOR-TODO-LIST]">
-  <img src="https://github.com/user-attachments/assets/d855fc0f-c94a-4dd7-b98d-5f277d697452" alt="To-Do List Web App" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <img src="https://github.com/user-attachments/assets/d855fc0f-c94a-4dd7-b98d-5f277d697452" alt="To-Do List Web App" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </a>
 
 > **[🚀 Manage Your Tasks]([YOUR-LIVE-LINK-FOR-TODO-LIST])**
@@ -44,7 +44,7 @@ Below are the live versions of the applications. Click on any animated icon or t
 **Description:** A beautifully crafted stopwatch for all your timing needs. Features include start, stop, reset, and lap functionalities, all with smooth transitions.
 
 <a href="[YOUR-LIVE-LINK-FOR-STOPWATCH]">
-  <img src="https://github.com/user-attachments/assets/1d3c59cd-2c30-4cb7-b5d6-47370d8eec93" alt="Stopwatch Web App" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <img src="https://github.com/user-attachments/assets/1d3c59cd-2c30-4cb7-b5d6-47370d8eec93" alt="Stopwatch Web App" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </a>
 
 > **[🚀 Start Timing]([YOUR-LIVE-LINK-FOR-STOPWATCH])**
@@ -56,7 +56,7 @@ Below are the live versions of the applications. Click on any animated icon or t
 **Description:** Relive the fun with this classic two-player Tic-Tac-Toe game. Challenge a friend and see who can get three in a row!
 
 <a href="[YOUR-LIVE-LINK-FOR-TICTACTOE]">
-  <img src="https://github.com/user-attachments/assets/8d442958-7de1-4a49-8b45-d7d3cb9f9c2d" alt="Tic-Tac-Toe Web Game" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <img src="https://github.com/user-attachments/assets/8d442958-7de1-4a49-8b45-d7d3cb9f9c2d" alt="Tic-Tac-Toe Web Game" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </a>
 
 > **[🚀 Play Tic-Tac-Toe]([YOUR-LIVE-LINK-FOR-TICTACTOE])**
@@ -68,7 +68,7 @@ Below are the live versions of the applications. Click on any animated icon or t
 **Description:** Quickly and accurately scan QR codes directly from your browser using your device's camera. Unlock information instantly!
 
 <a href="[YOUR-LIVE-LINK-FOR-QR-SCANNER]">
-  <img src="https://github.com/user-attachments/assets/9f9645f8-002b-479f-8e67-37afe086b7f9" alt="QR Code Scanner Web App" width="300px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <img src="https://github.com/user-attachments/assets/9f9645f8-002b-479f-8e67-37afe086b7f9" alt="QR Code Scanner Web App" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </a>
 
 > **[🚀 Scan QR Codes]([YOUR-LIVE-LINK-FOR-QR-SCANNER])**
