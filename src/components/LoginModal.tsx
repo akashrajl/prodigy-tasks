@@ -85,7 +85,7 @@ const LoginModal = ({ isOpen, onClose }: LoginModalProps) => {
           {isSignUp ? (
             <p>Already have an account? <button onClick={() => setIsSignUp(false)}>Login</button></p>
           ) : (
-            <p>Don't have an account? <button onClick={() => setIsSignUp(true)}>Sign Up</button></p>
+            <p>Don&apos;t have an account? <button onClick={() => setIsSignUp(true)}>Sign Up</button></p>
           )}
         </div>
       </div>
