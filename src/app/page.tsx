@@ -317,7 +317,7 @@ const Contact = () => {
       >
         <h2 className={styles.sectionTitle}>Get In Touch</h2>
         <p className={styles.contactSubtitle}>
-          I'm always open to discussing new projects, creative ideas, or opportunities.
+          I&apos;m always open to discussing new projects, creative ideas, or opportunities.
         </p>
         <div className={styles.contactLinks}>
           <a href="https://github.com/akashrajl" target="_blank" rel="noopener noreferrer" className={styles.contactIcon}>
