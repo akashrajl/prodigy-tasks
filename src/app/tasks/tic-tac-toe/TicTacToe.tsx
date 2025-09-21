@@ -200,7 +200,7 @@ function findBestMove(squares: (Player | null)[]): number {
   for (let i = 0; i < 9; i++) {
       if (squares[i] === null) {
           squares[i] = 'O'; // Computer's move
-          let moveVal = minimax(squares, 0, false);
+          const moveVal = minimax(squares, 0, false); // Changed 'let' to 'const'
           squares[i] = null; // Undo the move
 
           if (moveVal > bestVal) {
@@ -240,6 +240,5 @@ function minimax(board: (Player | null)[], depth: number, isMaximizing: boolean)
       return best;
   }
 }
-
 
 export default TicTacToe;
